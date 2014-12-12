@@ -1,0 +1,33 @@
+section {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.onepage-pagination {
+    bottom: 0;
+    left: 50%;
+    top: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.onepage-pagination > li {
+    float: left;
+    position: relative;
+}
+
+.onepage-pagination li a:before {
+    background-color: #fff;
+}
+
+.onepage-pagination li a.active:before {
+    border-color: #fff;
+}
